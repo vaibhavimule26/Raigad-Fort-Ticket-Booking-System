@@ -9,4 +9,4 @@ RUN ./gradlew build -x test
 
 EXPOSE 8081
 
-CMD ["sh", "-c", "java -jar build/libs/*.jar"]
+CMD ["java", "-jar", "build/libs/raigad-ticket-system-0.0.1-SNAPSHOT.jar"]
